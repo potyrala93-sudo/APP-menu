@@ -1,5 +1,5 @@
 /* Service worker do menu: abre o menu mesmo sem internet (os apps continuam pedindo conexão como hoje) */
-const VERSAO = 'menu-v2';
+const VERSAO = 'menu-v3';
 const ARQUIVOS = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(VERSAO).then((c) => c.addAll(ARQUIVOS.map((u) => new Request(u, { cache: 'reload' })))).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => {
