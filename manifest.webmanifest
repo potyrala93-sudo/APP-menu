@@ -1,7 +1,7 @@
 {
   "name": "Apps SMA",
   "short_name": "Apps SMA",
-  "description": "Menu de entrada: Compras, Estoque de Insumo, Almoxarifado e Pneus.",
+  "description": "Menu de entrada: PGO Digital, Compras, Estoque de Insumo, Almoxarifado e Pneus.",
   "id": "./",
   "start_url": "./",
   "scope": "/",
